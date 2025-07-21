@@ -47,18 +47,23 @@ Nesta atividade, vamos abordar o problema de reconhecimento de células sanguín
 > A continuacao, se mostram informações úteis que os usuários devem saber, mesmo ao ler o conteúdo rapidamente.
 
 ## Indicações pela descarga e execução dos arquivos deste repositório 
-Os arquivos que pessam mais de 25MB estao neste link de Google Drive para descarregar se precisar:
-https://drive.google.com/drive/folders/16ZttcLSuQrm79rESBFPmRGaPbxXLRKX7?usp=drive_link
 
-Os 4 arquivos para assistir as corridas dos 4 items do projeto também estao no link Google Drive de acima, sao:
-1. item a (10x).mp4   a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 210 segundos.
-2. item b (100x).mp4  a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 250 segundos.
-3. item c (10x).mp4   a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 410 segundos.
-4. item d (100x).mp4  a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 560 segundos.
+Os 4 vídeos para assistir às corridas dos executáveis .py de cada item resolvido, são:
+1. item a (10x).mp4   a velocidade do vídeo real foi aumentada 10 vezes, ou seja, que na realidade demorou 210 segundos.
+2. item b (100x).mp4  a velocidade do vídeo real foi aumentada 10 vezes, ou seja, que na realidade demorou 250 segundos.
+3. item c (10x).mp4   a velocidade do vídeo real foi aumentada 10 vezes, ou seja, que na realidade demorou 410 segundos.
+4. item d (100x).mp4  a velocidade do vídeo real foi aumentada 10 vezes, ou seja, que na realidade demorou 560 segundos.
 
-Se vai executar o projeto no Google Colab, cada um dos 5 arquivos de Python .ipynb que vai correr devem ter estas 3 linhas de codigo primeiro:
+Se vai executar o projeto no Google Colab, cada um dos 5 arquivos de Python .ipynb que vai correr devem ter estas 3 linhas de código primeiro:
 ```
 !pip install medmnist
 from google.colab import drive
 drive.mount('/content/drive')
 ```
+
+O único arquivo que não está subido neste repositório (e que é necessário para executar o projeto) porque pesa mais de 25MB, o limite permitido pelo GitHub, é o dataset **_bloodmnist.npz_** que está subido no seguinte link de Google Drive pela vossa descarga:
+
+https://drive.google.com/drive/folders/16ZttcLSuQrm79rESBFPmRGaPbxXLRKX7?usp=drive_link
+
+Os outros arquivos .npy são as redes neurais treinadas resultantes da execução do projeto, como se mostra na figura de embaixo.
+<img width="1140" height="733" alt="image" src="https://github.com/user-attachments/assets/35d2fc02-f40a-4218-9354-2794e628419b" />
