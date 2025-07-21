@@ -11,8 +11,7 @@ Nesta atividade, vamos abordar o problema de reconhecimento de células sanguín
 <img width="576" height="288" alt="image" src="https://github.com/user-attachments/assets/3e5a56ff-085f-40da-8314-74a0a5c6bed2" />
 
 **Figura 1:** Amostras da base de dados BloodMNIST. 
-
-<br/><br/>
+<br/>
 
 - ID=0 --> Basófilos
 - ID=1 --> Eosinófilos
@@ -44,7 +43,7 @@ Nesta atividade, vamos abordar o problema de reconhecimento de células sanguín
 <br/><br/><br/><br/>
 
 > [!NOTA]
-> A continuacao, se mostram informações úteis que os usuários devem saber, mesmo ao ler o conteúdo rapidamente.
+> A continuacao, se mostram informações úteis que os usuários devem saber pela execução do projeto.
 
 ## Indicações pela descarga e execução dos arquivos deste repositório 
 
@@ -66,4 +65,6 @@ O único arquivo que não está subido neste repositório (e que é necessário 
 https://drive.google.com/drive/folders/16ZttcLSuQrm79rESBFPmRGaPbxXLRKX7?usp=drive_link
 
 Os outros arquivos .npy são as redes neurais treinadas resultantes da execução do projeto, como se mostra na figura de embaixo.
-<img width="1140" height="733" alt="image" src="https://github.com/user-attachments/assets/35d2fc02-f40a-4218-9354-2794e628419b" />
+
+<img width="1140" height="733" alt="image" src="https://github.com/user-attachments/assets/4df8b10c-3659-4100-80aa-0b06265350d1" />
+
