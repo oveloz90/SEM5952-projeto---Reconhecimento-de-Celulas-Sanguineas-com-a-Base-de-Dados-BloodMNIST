@@ -1,11 +1,25 @@
+# Projeto Final de SEM5952 Redes Neurais e Aprendizagem de MÁquina: "Aplicação e Avaliação de Redes Neurais para Reconhecimento de Células Sanguíneas com a Base de Dados BloodMNIST".
+
+## Resumo do Projeto  
+Este projeto envolve a aplicação e avaliação de redes neurais para o reconhecimento de células sanguíneas periféricas usando a base de dados BloodMNIST, com 17.092 imagens coloridas classificadas em oito categorias. A primeira tarefa é implementar uma MLP com uma camada intermediária e avaliar sua acurácia e matriz de confusão. A segunda tarefa requer a construção de uma CNN simples e a avaliação da acurácia em função da quantidade e do tamanho dos kernels. Na terceira tarefa, a melhor configuração da CNN é re-treinada, e sua matriz de confusão, acurácia global e erros de classificação são analisados. Por fim, a quarta tarefa explora uma CNN mais profunda, avaliando seu desempenho e comparando os modelos estudados. A atividade exige justificativas detalhadas das escolhas feitas para garantir a reprodutibilidade da metodologia.
+
+## Descriçãodo Projeto  
+
+### Introdução
+Nesta atividade, vamos abordar o problema de reconhecimento de células sanguíneas periféricas utilizando a base de dados BloodMNIST [Acevedo et al., 2020, Yang et al., 2021] (https://medmnist.com/), a qual possui 17.092 imagens microscópicas coloridas (3 canais de cor).  A Figura 1 exibe uma amostra de cada classe existente na base de dados considerando a versão com resolução de 28 × 28 pixels.  O mapeamento entre os identificadores das classes e os rótulos está indicado na Tabela 1.
+
+<img width="576" height="288" alt="image" src="https://github.com/user-attachments/assets/3e5a56ff-085f-40da-8314-74a0a5c6bed2" />
+
+**Figura 1:** Amostras da base de dados BloodMNIST.
+
 Os arquivos que pessam mais de 25MB estao neste link de Google Drive para descarregar se precisar:
 https://drive.google.com/drive/folders/16ZttcLSuQrm79rESBFPmRGaPbxXLRKX7?usp=drive_link
 
 Os 4 arquivos para assistir as corridas dos 4 items do projeto também estao no link Google Drive de acima, sao:
-item a (10x).mp4   a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 210 segundos.
-item b (100x).mp4  a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 250 segundos.
-item c (10x).mp4   a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 410 segundos.
-item d (100x).mp4  a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 560 segundos.
+- item a (10x).mp4   a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 210 segundos.
+- item b (100x).mp4  a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 250 segundos.
+- item c (10x).mp4   a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 410 segundos.
+- item d (100x).mp4  a velocidade do video real foi aumentada 10 vezes, ou seja que na realidade demorou 560 segundos.
 
 Se vai executar o projeto no Google Colab, cada um dos 5 arquivos de Python .ipynb que vai correr devem ter estas 3 linhas de codigo primeiro:
 ```
@@ -14,11 +28,6 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-# Projeto Final de SEM5952 Redes Neurais e Aprendizagem de MÁquina
-Aplicação e Avaliação de Redes Neurais para Reconhecimento de Células Sanguíneas com a Base de Dados BloodMNIST.
-
-## Descrição do Projeto  
-Com o aumento exponencial de publicações científicas, manter-se atualizado com as últimas tendências e avanços tornou-se um desafio para pesquisadores e profissionais. Este projeto tem como objetivo desenvolver um sistema que automatize a sumarização de múltiplos artigos científicos, gerando uma seção coesa de revisão de literatura (survey), facilitando a análise e o entendimento das contribuições mais relevantes dentro de um tema específico.
 
 ## 1. Objetivo do Projeto  
 Desenvolver um sistema capaz de realizar a sumarização automática de múltiplos artigos científicos nas áreas de Inteligência Artificial (IA), Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina (ML), utilizando o dataset SurveySum. A proposta é criar uma solução que gere uma seção de revisão de literatura baseada em um conjunto de artigos científicos relacionados a um tema específico, como "Mitigação de Viés em Modelos de Linguagem" ou "Modelos Transformers para PLN".
